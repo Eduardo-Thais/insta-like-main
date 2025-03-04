@@ -25,16 +25,10 @@
   "contributors": [],
   "scripts": {
     "dev": "npx parcel index.html",
-    "test": ""
+    "test": "",
+    "build": "parcel build index.html"
   },
   "devDependencies": {
     "parcel": "^2.12.0"
-  },
-  "build": {
-  "command": "npm run build && netlify deploy --prod",
-  "environment": {
-    "NEXT_PRIVATE_TARGET": "production"
-  },
-  "publish": "/opt/build/repo/dist"
-}
+  }
 }
