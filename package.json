@@ -25,7 +25,8 @@
   "contributors": [],
   "scripts": {
     "dev": "npx parcel index.html",
-    "test": ""
+    "test": "",
+    "build": "netlify deploy --prod"
   },
   "devDependencies": {
     "parcel": "^2.12.0"
